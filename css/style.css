@@ -1,15 +1,27 @@
+/* fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
 }
-/* fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
 /* banner area */
 .bnr {
   max-width: 100%;
   background-color: #264653;
   margin-bottom: 64px;
+}
+.bnr-txt {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.bnr-head {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
 }
 .btn {
   background-color: #e76f51;
@@ -17,6 +29,8 @@ body {
   padding-right: 46px;
   margin-top: 18px;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 /* banner area ends */
 .img-size {
@@ -35,12 +49,14 @@ body {
 .headline {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
+  font-weight: 600;
   color: black;
 }
 .diff-color {
   color: #e76f51;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  font-weight: 600;
 }
 .head-text {
   text-align: center;
@@ -72,7 +88,26 @@ body {
 /* FAQ */
 .headline-text {
   text-align: center;
+  margin-bottom: 135px;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
 }
 .diff-head-color {
   color: #e76f51;
+}
+.img-resize {
+  margin-bottom: 67px;
+  width: 424.8px;
+  height: 397.5px;
+}
+.acc-font {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.acc-ans {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
